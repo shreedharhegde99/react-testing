@@ -1,0 +1,19 @@
+.button {
+	box-sizing: border-box;
+	height: 2rem;
+	width: max-content;
+	padding: 0.5rem;
+	margin: 1rem auto;
+	color: blueviolet;
+	border: solid 1px ;
+  border-radius: 3px;
+	cursor: pointer;
+  box-shadow: 0 0  8px 0 aqua;
+	transition: ease-in-out 400ms;
+
+}
+.button:hover {
+	background-color: rgba(151, 79, 219, 0.459);
+	color: aliceblue;
+	/* transition: ease-in-out 300ms; */
+}

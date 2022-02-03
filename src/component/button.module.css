@@ -9,7 +9,7 @@
   border-radius: 3px;
 	cursor: pointer;
   box-shadow: 0 0  8px 0 aqua;
-	transition: ease-in-out 400ms;
+	transition: linear ;
 
 }
 .button:hover {

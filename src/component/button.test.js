@@ -1,14 +1,15 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import { render, cleanup, fireEvent } from "@testing-library/react";
+import { cleanup, fireEvent } from "@testing-library/react";
 import renderer from "react-test-renderer";
 import { Button } from "./button";
+import { render } from "../redux/utils/renderWithStore";
 
 afterEach(cleanup);
 
 it("should render without crashing", () => {
 	let div = document.createElement("div");
-	render(<Button label="button"></Button>, div);
+	render(<Button label="button"></Button>);
 });
 
 it("should render button correctly", () => {

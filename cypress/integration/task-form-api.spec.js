@@ -22,7 +22,7 @@ describe("Task form submt", function () {
 
 
 
-  it.only('add a new item ,on failure show error message ', function () {
+  it('add a new item ,on failure show error message ', function () {
     
     const text = "BUY Bread"
     cy.server()
